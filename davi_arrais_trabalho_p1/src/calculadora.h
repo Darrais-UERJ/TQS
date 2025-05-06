@@ -1,6 +1,6 @@
 int calculo(int idade, int qtdBilhetes){
     // Caso inválido (Idade menor que 0 OU maior que 130)
-    if(idade =< 0 || idade > 130){
+    if(idade <= 0 || idade > 130){
         return -1;
     }
     // Caso inválido (Qtd de Bilhetes menor que 0 OU maior que 5)
